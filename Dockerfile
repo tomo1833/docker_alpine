@@ -2,8 +2,7 @@
 FROM alpine:3.11
 
 # ビルドに必要なソフトウェアをインストール
-RUN apt-get update && \
-    apt-get install -y python3
+RUN apk add --update --no-cache python3
 
 # 実行ディレクトリ
 WORKDIR /usr/app/src
