@@ -25,7 +25,7 @@ $ docker run -itd --name com_alp_python img_alp_python
 ボリュームあり
 
 ```sh
-$ docker run -itd --volume {HOST_OS_PATH}:/usr/app/src --name com_alp_python img_jalp_python
+$ docker run -itd --volume {HOST_OS_PATH}:/usr/app/src --name com_alp_python img_alp_python
 ```
 {HOST_OS_PATH}は絶対パスを指定
 例) windowsの場合 c:\data1\data2\
